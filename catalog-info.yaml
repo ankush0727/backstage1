@@ -4,8 +4,6 @@ metadata:
   name: API-Demo
   description: The Spotify web API
   tags:
-    - spotify
-    - rest
     - dev
     - qa
   annotations:
