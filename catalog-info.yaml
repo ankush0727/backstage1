@@ -16,9 +16,9 @@ spec:
       license:
         name: MIT
     servers:
-      - url: https://rio-api.pie.apple.com/v1/
+      - url: https://rio-api.pie.apple.com/v1
     paths:
-      /projects:
+      /projects/sample-harshal-sample-rio/pipeline_specs:
         get:
           summary: List all projects
         parameters:
