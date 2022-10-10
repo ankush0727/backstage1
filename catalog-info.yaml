@@ -36,16 +36,16 @@ spec:
              type: string
         responses:
           '200':
-             description: A paged array of pets
-             headers:
-               x-next:
-                 description: A link to the next page of responses
-                 schema:
-                 type: string
-           content:
-            application/json:
-              schema:
-                $ref: "#/components/schemas/Pets"
+            description: A paged array of pets
+            headers:
+              x-next:
+                description: A link to the next page of responses
+                schema:
+                type: string
+            content:
+              application/json:
+                schema:
+                  $ref: "#/components/schemas/Pets"
           default:
             description: unexpected error
             content:
