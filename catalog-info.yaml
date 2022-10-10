@@ -16,8 +16,15 @@ spec:
       license:
         name: MIT
     servers:
-      - url: https://rio.apple.com/
+      - url: https://rio-api.pie.apple.com/v1/
     paths:
       /projects:
         get:
           summary: List all projects
+        parameters:
+         - description: A valid user access token or your client credentials.
+           in: header
+           name: Authorization
+           required: true
+           schema:
+             type: string
