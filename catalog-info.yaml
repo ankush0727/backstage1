@@ -16,8 +16,8 @@ spec:
       license:
         name: MIT
     servers:
-      - url: http://artist.spotify.net/v1
+      - url: https://rio.apple.com/
     paths:
-      /artists:
+      /projects:
         get:
-          summary: List all artists
+          summary: List all projects
