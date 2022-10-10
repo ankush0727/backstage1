@@ -24,7 +24,13 @@ spec:
         parameters:
          - description: A valid user access token or your client credentials.
            in: header
-           name: Authorization
+           name: X-RIO-API-EMAIL
+           required: true
+           schema:
+             type: string
+         - description: A valid user access token or your client credentials.
+           in: header
+           name: X-RIO-API-TOKEN
            required: true
            schema:
              type: string
