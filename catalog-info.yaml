@@ -18,7 +18,7 @@ spec:
     servers:
       - url: https://rio-api.pie.apple.com/v1
     paths:
-      /projects/sample-harshal-sample-rio:
+      /projects/sample-harshal-sample-rio/pipeline_specs:
         get:
           summary: List all projects
           parameters:
@@ -55,8 +55,3 @@ spec:
           properties:
             id:
               type: string
-        Pets:
-          type: array
-          items:
-             $ref: "#/components/schemas/Pet"
-    
