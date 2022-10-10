@@ -45,7 +45,7 @@ spec:
             content:
               application/json:    
                 schema:
-                  $ref: "#/components/schemas/Pets"
+                  $ref: "#/components/schemas/Pet"
     components:
       schemas:
         Pet:
@@ -54,8 +54,7 @@ spec:
             - id       
           properties:
             id:
-              type: integer
-              format: int64 
+              type: string
         Pets:
           type: array
           items:
